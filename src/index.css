@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: white;
+  color: black;
+}
+
+/* ScrollToTopIcon.module.css */
+.scrollToTop {
+  background: linear-gradient(
+    to right,
+    #4f46e5,
+    #a855f7,
+    #ec4899
+  ); /* Gradient */
+  padding: 1rem; /* Padding */
+  border-radius: 9999px; /* Full round */
+  position: fixed; /* Fixed position */
+  bottom: 1.5rem; /* Bottom position */
+  right: 1.5rem; /* Right position */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow */
+  transition: all 0.3s ease-in-out; /* Transition for hover effect */
+  cursor: pointer; /* Pointer cursor */
+}
+
+.scrollToTop:hover {
+  background: linear-gradient(
+    to right,
+    #4338ca,
+    #9333ea,
+    #db2777
+  ); /* Darker gradient on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
